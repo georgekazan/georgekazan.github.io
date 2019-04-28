@@ -1,0 +1,82 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a.link{
+    color: darkgray;
+}
+
+a.link:hover{
+    color: gray;
+}
+
+a.link:visited{
+    color: darkgray;
+}
+
+a.link:active{
+    color: white;
+}
+
+::selection {
+  background: #87abe5; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #87abe5; /* Gecko Browsers */
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6565bf; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #37376b; 
+}
+
+body{
+    background-image: url("../../assets/images/wil-stewart-23387-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron{ 
+    background-image: url("../../assets/images/timothy-johnson-1135691-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: ghostwhite;
+    border-radius: 10px;
+    
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.0);
+}
+
+.img1{
+    border-radius: 10px;
+    background-image: url("../../assets/images/timothy-johnson-1135691-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: ghostwhite;
+}
+
+.github-card{
+    background: rgba(255, 255, 255, 0.0);
+
+}
+
+.github-widget{
+    background: rgba(255, 255, 255, 1.0);
+    border-radius: 20px;
+}
