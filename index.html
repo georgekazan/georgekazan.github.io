@@ -6,96 +6,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - George Kazanjian</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="index.html">George Kazanjian</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html">Projects</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact me</a></li>
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top">George Kazanjian</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Skills</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                 </ul>
-        </div>
+            </div>
         </div>
     </nav>
-    <main class="page lanidng-page">
-        <section class="portfolio-block block-intro">
-            <div class="container">
-                <div class="avatar" style="background-image: url(&quot;assets/img/0.jpg&quot;);"></div>
-                <div class="about-me">
-                    <p>My name is <strong>George Kazanjian</strong>.&nbsp;<br>With nearly 5 years of self taught programming experience I have <br>released over 25 projects that have been downloaded over 3.4 million <br>times. My interest in programming
-                        motivated me to teach myself Java, <br>Python, and front end web development.<br></p>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio-block photography">
-            <div class="container">
-                <div class="row no-gutters">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"></a></div>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio-block skills">
-            <div class="container">
-                <div class="heading">
-                    <h2>Skills</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-laptop"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Languages</h3>
-                                <p class="card-text">Java &amp; Python</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-paper-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">IDEs</h3>
-                                <p class="card-text">Intellij, Eclipse, Pycharm, Visual Studio Code</p>
-                            </div>
-                        </div>
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Source Control</h3>
-                                <p class="card-text">Git, GitHub</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-printer-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Web Development</h3>
-                                <p class="card-text">HTML, CSS, JavaScript, ReactJS</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="page-footer">
+    <header class="text-center text-white bg-primary masthead">
+        <div class="container"><img class="img-fluid border rounded-circle d-block mx-auto mb-5" src="assets/img/0.jpg" width="250" height="250">
+            <h1>George Kazanjian</h1>
+            <hr class="star-light">
+            <h2 class="font-weight-light mb-0">Software &amp; Game Developer</h2>
+        </div>
+    </header>
+    <section id="portfolio" class="portfolio">
         <div class="container">
-            <div class="links"><a href="index.html">About me</a><a href="contact.html">Contact me</a><a href="projects.html">Projects</a></div>
-            <div class="social-icons"><a href="https://github.com/0SoggyMustache0" target="_blank"><i class="icon ion-social-github-outline"></i></a><a href="https://twitter.com/SoggyMods" target="_blank"><i class="icon ion-social-twitter"></i></a></div>
+            <div class="intro">
+                <h2 class="text-uppercase text-center text-black">Skills</h2>
+                <hr class="star-dark mb-5">
+            </div>
+            <div class="row features">
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-hashtag icon"></i>
+                    <h3 class="name">Languages</h3>
+                    <p class="description">Java, C#, Kotlin, Python</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-file-text icon"></i>
+                    <h3 class="name">IDEs</h3>
+                    <p class="description">Intellij, Rider, Pycharm, Eclipse, and other JetBrains tools</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><i class="fa fa-github-alt icon"></i>
+                    <h3 class="name">Source Control</h3>
+                    <p class="description">Git and GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-uppercase text-center text-black">About</h2>
+                <hr class="star-dark mb-5">
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item">
+                    <h3 class="name">Yeti Mouth Games</h3>
+                    <p class="description" style="padding: 0;">The game development studio where I am the lead developer.</p><a class="btn btn-primary text-start" role="button" href="https://yetimouthgames.com/" style="background: #1485ee;">More</a>
+                </div>
+                <div class="col-sm-6 col-md-4 item">
+                    <h3 class="name">GitHub</h3>
+                    <p class="description" style="padding: 0;">Open source and in development projects can be found here.</p><a class="btn btn-primary text-start" role="button" href="https://github.com/gkazan" style="background: #1485ee;">More</a>
+                </div>
+                <div class="col-sm-6 col-md-4 item">
+                    <h3 class="name">SoggyMustache Development</h3>
+                    <p class="description" style="margin: 0;">Some of my projects can be found here.</p><a class="btn btn-primary text-start" role="button" href="https://soggymustache.net/" style="background: #1485ee;">More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-white bg-primary mb-0" id="about" style="background: #ffffff;">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-white">About</h2>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div class="col">
+                    <p class="lead">I am a self taught programming with more than 6 years of experience on personal and collaborative projects. I have released more than 25 projects which have been downloaded over 8 million times.&nbsp;</p>
+                </div>
+            </div>
+            <div class="text-center mt-4"></div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary mb-0">Contact Me</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <p class="text-center">Email me at:&nbsp;george@georgekazan.dev</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0"></div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase">Social</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="https://github.com/gkazan" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="https://www.linkedin.com/in/george-kazanjian/" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
+    <div class="text-center text-white copyright py-4">
+        <div class="container"><small>Copyright ©&nbsp;George Kazanjian 2021</small></div>
+    </div>
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="text-center d-block rounded text-white" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/freelancer.js"></script>
 </body>
 
 </html>
